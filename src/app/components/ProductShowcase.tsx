@@ -1,6 +1,6 @@
 import { ProductCard } from './ProductCard';
-import tShirtImg from 'figma:asset/7b2bf9cf48b715ae015a1c97afcacbc3294d476b.png';
-import hatImg from 'figma:asset/21a7609b160904790948b73fa2b9ffc340bde596.png';
+import tShirtImg from '@/assets/7b2bf9cf48b715ae015a1c97afcacbc3294d476b.png';
+import hatImg from '@/assets/21a7609b160904790948b73fa2b9ffc340bde596.png';
 
 export const ProductShowcase = () => {
   const products = [
