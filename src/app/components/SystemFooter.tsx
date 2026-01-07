@@ -33,16 +33,16 @@ export const SystemFooter = () => {
         <div>
           <h3 className="text-white text-lg font-bold mb-4 uppercase">Connect</h3>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-cyan-400 cursor-pointer">{`> TWITTER / X`}</li>
-            <li className="hover:text-cyan-400 cursor-pointer">{`> GITHUB`}</li>
-            <li className="hover:text-cyan-400 cursor-pointer">{`> DISCORD`}</li>
+            <li className="hover:text-cyan-400 cursor-pointer">
+              <a href="https://github.com/Echooff3" target="_blank" rel="noopener noreferrer">{`> GITHUB`}</a>
+            </li>
             <li className="hover:text-cyan-400 cursor-pointer">{`> EMAIL: NULL@VOID.COM`}</li>
           </ul>
         </div>
       </div>
       
       <div className="mt-12 pt-8 border-t border-zinc-900 text-xs text-center flex flex-col gap-2">
-        <p>© 2024 Tril$oft. ALL RIGHTS RESERVED.</p>
+        <p>© {new Date().getFullYear()} Tril$oft. ALL RIGHTS RESERVED.</p>
         <p className="text-zinc-700">MEMORY LEAK DETECTED AT 0x000000</p>
       </div>
     </footer>
